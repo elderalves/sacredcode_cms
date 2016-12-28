@@ -1,0 +1,14 @@
+{
+  "name": "sacredcode_purephp_cms",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.18.5",
+    "gulp-connect-php": "^0.0.8",
+    "gulp-sass": "^3.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

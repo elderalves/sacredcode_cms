@@ -1,6 +1,11 @@
 <?php
 
 require(__DIR__.'/../bootstrap/start.php');
+
+$dotenv = new \Dotenv\Dotenv(__DIR__.'/../');
+$dotenv->load();
+
+require(__DIR__.'/../bootstrap/db.php');
 require(__DIR__.'/../routers.php');
 
 $match = $router->match();

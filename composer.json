@@ -10,9 +10,10 @@
     "require": {
         "altorouter/altorouter": "^1.2",
         "vlucas/phpdotenv": "^2.4",
-        "filp/whoops": "^2.1"
+        "filp/whoops": "^2.1",
+        "illuminate/database": "^5.3"
     },
     "autoload": {
-      "classmap": ["controllers"]
+      "classmap": ["controllers/", "models/"]
     }
 }
